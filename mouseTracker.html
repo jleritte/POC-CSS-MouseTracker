@@ -8,17 +8,17 @@
 			font-family: Arial, Helvetica, sans-serif;
 		}
 		/*Tootip*/
-		[ta]:hover:before {
+		[ta]:hover:after {
 			opacity: 1;
 		}
-		[ta]:before {
+		[ta]:after {
 			content: attr(ta);
 			background-color: #CCC;
 			border: 1px sodivd #000;
 			border-radius: 5px;
 			opacity: 0;
-			position: absolute;
-			top: 55px;
+			position: relative;
+			top: -10px;
 			transition: 1s;
 			transition-delay: 0.5s;
 		}
@@ -51,11 +51,10 @@
 	</style>
 </head>
 <body>
-	<div ta="Tool Tips are Cool! B)">
-		<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum tristique nulla, a convallis orci vehicula ac. Donec lacinia lacus quis varius vulputate. Nunc sit amet elit id massa luctus tempus in id turpis. Duis convallis erat id massa pulvinar malesuada. Maecenas aliquet aliquet metus, vel efficitur justo porta non. Nam laoreet, orci ac porta aliquam, justo justo iaculis ipsum, sed pharetra erat est et ex. Mauris consectetur rhoncus justo sed congue. Fusce at augue in nisi lobortis varius. Aenean suscipit, lectus a lobortis placerat, sapien odio pellentesque diam, nec malesuada est nisi id ex. Suspendisse fermentum lacinia est, ac gravida arcu finibus ac. Suspendisse commodo gravida diam, at cursus eros convallis a. Phasellus vitae eleifend urna. Cras scelerisque ante ac erat sollicitudin, vel feugiat libero consectetur.</p>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum tristique nulla, a convallis orci vehicula ac. Donec lacinia lacus quis varius vulputate. Nunc sit amet elit id massa luctus tempus in id turpis. Duis convallis erat id massa pulvinar malesuada. Maecenas aliquet aliquet metus, vel efficitur justo porta non. Nam laoreet, orci ac porta aliquam, justo justo iaculis ipsum, sed pharetra erat est et ex. Mauris consectetur rhoncus justo sed congue. Fusce at augue in nisi lobortis varius. Aenean suscipit, lectus a lobortis placerat, sapien odio pellentesque diam, nec malesuada est nisi id ex. Suspendisse fermentum lacinia est, ac gravida arcu finibus ac. Suspendisse commodo gravida diam, at cursus eros convallis a. Phasellus vitae eleifend urna. Cras scelerisque ante ac erat sollicitudin, vel feugiat libero consectetur.</p>
 
-		<p>Cras augue quam, viverra in vehicula sit amet, gravida sit amet lacus. Aenean a mollis erat, at euismod leo. Maecenas ultrices lacus vitae malesuada lobortis. Nunc et laoreet nulla. Mauris orci massa, egestas ac fermentum sed, tempus non purus. Fusce ullamcorper neque sapien, id laoreet mi ultrices at. Aliquam faucibus sodales sagittis. Vivamus ut scelerisque arcu. Ut ac leo eget quam malesuada facilisis sit amet vel arcu. Aenean odio augue, cursus id lectus at, dapibus efficitur nibh. Sed blandit dolor a nibh egestas, non vehicula sapien ultrices. Integer posuere, leo porta fringilla varius, eros nulla fermentum urna, vitae hendrerit dui risus vel felis. Pellentesque gravida eu sem vitae efficitur. Nunc dolor turpis, fermentum sit amet ultrices id, consectetur in ipsum. Proin tristique lectus eu felis aliquam, ac ultrices mauris sollicitudin.</p>
+		<p ta="Tool Tips are Cool! B)">Cras augue quam, viverra in vehicula sit amet, gravida sit amet lacus. Aenean a mollis erat, at euismod leo. Maecenas ultrices lacus vitae malesuada lobortis. Nunc et laoreet nulla. Mauris orci massa, egestas ac fermentum sed, tempus non purus. Fusce ullamcorper neque sapien, id laoreet mi ultrices at. Aliquam faucibus sodales sagittis. Vivamus ut scelerisque arcu. Ut ac leo eget quam malesuada facilisis sit amet vel arcu. Aenean odio augue, cursus id lectus at, dapibus efficitur nibh. Sed blandit dolor a nibh egestas, non vehicula sapien ultrices. Integer posuere, leo porta fringilla varius, eros nulla fermentum urna, vitae hendrerit dui risus vel felis. Pellentesque gravida eu sem vitae efficitur. Nunc dolor turpis, fermentum sit amet ultrices id, consectetur in ipsum. Proin tristique lectus eu felis aliquam, ac ultrices mauris sollicitudin.</p>
 
 		<p>In ut orci luctus, placerat dolor a, ultrices arcu. Nunc ultrices tortor et elit fringilla, a suscipit elit volutpat. In in magna luctus, maximus massa ac, iaculis neque. Aenean ut nunc non ante dictum ornare. Nulla vel magna vel elit volutpat aliquam nec vitae purus. Morbi vel tempor turpis. Integer consequat mauris a risus vestibulum, vel dapibus lacus fringilla. Fusce lectus diam, efficitur ullamcorper sodales et, sagittis ut nibh. Cras et hendrerit sapien, et finibus neque. Vestibulum sed erat eget dui cursus aliquet. Nam aliquam finibus venenatis. Suspendisse sed ipsum purus.</p>
 
