@@ -1,3 +1,3 @@
 Here is a [Demo][1]
 
-[1]:https://jsfiddle.net/jleritte/jfhz5od1/
+[1]:http://jleritte.github.io/mouse/
